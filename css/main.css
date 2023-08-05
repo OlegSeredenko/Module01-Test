@@ -1,0 +1,30 @@
+h1 {
+    color: red;
+}
+
+p {
+    color: green;
+}
+
+q {
+    color: pink;
+    font-style: italic;
+}
+
+ul {
+    text-shadow: 1px 1px red;
+}
+
+ol {
+    line-height: 35px;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    height: 1px;
+    background-color: blueviolet;
+    border: none;
+}
