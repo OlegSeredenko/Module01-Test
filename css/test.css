@@ -27,6 +27,9 @@ ul {
 ul > li {
     margin-right: 30px;
 }
+ul > li:last-child {
+    margin-right: 0;
+}
 .box {
     display: flex;
     margin-bottom: 30px;
@@ -40,25 +43,27 @@ ul > li {
 .post {
     padding-bottom: 20px;
 }
-
 .footer {
     font-size: 13px;
     padding: 0 20px;
 }
-
 a { 
     color: rebeccapurple;
     font-weight: 700;
     text-decoration: none;
 }
-
 h1, h2, h3 {
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
-
 section {
     background-color: lavender;
     padding: 5px 20px;
     margin-bottom: 20px;
+}
+.link {
+    background: rebeccapurple;
+    color: white;
+    padding: 8px 15px;
+    margin-left: 10px;
 }
